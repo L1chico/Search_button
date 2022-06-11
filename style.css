@@ -1,0 +1,58 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main {
+    display: block;
+}
+img {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+}
+#srch {
+    height: 48px;
+    width: 48px;
+    border-radius: 20px;
+    background-color: rgb(200, 200, 214);
+    position: absolute;
+    top: 0px;
+    overflow: hidden;
+    /* animation: scrh_move 2s ease-in-out 0s infinite normal forwards;
+    animation-play-state: paused; */
+}
+.inp_txt {
+    position: relative;
+    top: 12px;
+    left: 50px;
+}
+/* @keyframes scrh_move_back {
+    from {
+        width: 250px;
+    }
+    to {
+        width: 48px;
+    }
+} */
+@keyframes scrh_move {
+    0% {
+        width: 48px;
+    }
+    25% {
+        width: 101px;
+    }
+    50% {
+        width: 250px;
+    }
+    75% {
+        width: 101px;
+    }
+    100% {
+        width: 48px;
+    }
+}
